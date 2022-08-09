@@ -10,5 +10,6 @@ export default async (): Promise<Config.InitialOptions> => {
     testEnvironment: 'node',
     rootDir: 'src',
     testMatch: ["**/__test__/*.test.ts"],
+    collectCoverage: true
   };
 };
