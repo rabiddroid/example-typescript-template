@@ -9,7 +9,10 @@ export default async (): Promise<Config.InitialOptions> => {
     preset: 'ts-jest',
     testEnvironment: 'node',
     rootDir: 'src',
-    testMatch: ["**/__test__/*.test.ts"],
-    collectCoverage: true
+    testMatch: ["**/__tests__/*.test.ts"],
+    collectCoverage: true,
+    transform:{}
   };
 };
+
+
